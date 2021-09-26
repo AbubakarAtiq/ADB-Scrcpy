@@ -1,0 +1,8 @@
+This is the link:
+https://github.com/Genymobile/scrcpy
+depending on the OS download the file in release section.
+https://github.com/Genymobile/scrcpy/releases
+in my case, i am using win64.
+Extract to C:
+-> C:\scrcpy
+run it as administrator, make sure, Android is  detect my adb
