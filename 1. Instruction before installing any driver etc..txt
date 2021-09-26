@@ -1,0 +1,2 @@
+First, you have to make sure that android is in debugging usb mode. It depends on the brand of 
+that phone, check how to debug your android? on the internet.
