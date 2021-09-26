@@ -1,0 +1,11 @@
+then open broswer, depending on the OS, install ADB on your PC, extract it to C:,
+name as C:\adb\
+after installing make sure windows in detecting your android.
+then if it is not then,
+->open device manager, scroll down, select "Universal Serial Bus devices", it will only appear
+when your android is connect to your PC. Then go to "Action", "Add legacy Hardware","next",
+"Install the hardware that i manually select from a list (Advanced)". Open the Directory where
+you save the driver.
+In my case, i am installing driver from this website,
+https://xiaomifirmware.com/downloads/download-xiaomi-redmi-note-4-drivers-utilites/
+after installing driver, restart your pc.
