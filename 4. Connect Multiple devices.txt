@@ -1,0 +1,33 @@
+{
+This tool allows users to connect multiple devices simultaneously. You just need to follow these
+simple steps to make it work. First, turn USB debugging on for all the devices and connect
+them to the PC. Then, list all the devices which are recogized by adb by running the following command.
+CMD>>adb devices
+Now, for each device listed in the output, copy its serial number and run the following command.
+//Replace SERIAL_NUM with the serial number of the device,
+>>scrcpy --serial SERIAL_NUM
+it will display all the devices on the screen.
+//Reduce Size
+You can also mirror the device's screen at a lower resolution to increase performance.
+>>scrcpy --max-size 640
+it preserves the aspect ratio of the screen.
+//Limit frame rate
+You can also change the frame rate of the captured screen.
+>>scrcpy --max-fps 10
+//Crop screen
+sometimes, you only need to display a part of the screen, so, you can so that with this feature.
+>>scrcpy --crop 1224:1440:0:0
+//Record screen:
+You can also record the screen while mirroring.
+>>scrcpy --record myrecording.mp4
+//Full-screen:
+You can start the app directly in full-screen mode.
+scrcpy --fullscreen
+//Show touches
+Sometimes, you need to show the physical touches. This feature will help you in that case.
+>>scrcpy --show-touches
+//Stay awake
+Prevent the device from sleeping after some delay.
+>>scrcpy --stay-awake
+https://www.geeksforgeeks.org/mirror-android-screen-to-pc-using-scrcpy/
+}
