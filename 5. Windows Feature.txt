@@ -1,0 +1,44 @@
+//Windows Features:
+
+01.UNLOCK BOOTLOADER
+02.FORMAT DATA PARTITION (EXT4)
+03.FORMAT DATA PARTITION (F2FS)
+04.FLASH BOOT (only .img file)
+05.FLASH BOOTLOADER (only .img file)
+06.FLASH RADIO (only .img file)
+07.FLASH RECOVERY (only .img file)
+08.FLASH SYSTEM (only .img file)
+09.FLASH VENDOR (only .img file)
+10.FLASH CACHE (only .img file)
+11.FLASH ROM (You must know what you are doing)
+12.Check connected devices
+13.Boot into ROM
+14.Boot into recovery
+15.REBOOT SMARTPHONE
+16.REBOOT INTO THE RECOVERY
+17.REBOOT INTO THE Fastboot/Bootloader
+Check connected devices
+Automate Apks installer
+Check devices version connected
+Install an app
+Unistall an app (No System App)
+Emulate device (Resize Screen)
+Emulate device (Change Density)
+Reset (Emulate device)
+Screen Recording
+Smarthphone Status
+Change system info
+Grant WRITE_SECURE_SETTINGS permission
+Grant DUMP permission
+Check for granted permissions
+Create and run a program: keyevent Istruction https://developer.android.com/reference/android/view/KeyEvent.html
+Scrcpy - Screen mirror
+ADB over network working
+Logcat and Display On Screen Only
+Logcat and Record Text File Locally
+"getevent" and Display On Screen Only
+"getevent" and Record Text File Locally
+View System Info (Data From build.prop, g.prop, and others)
+Wireless debugging (only on Android 11)
+adb backup and restore
+input from keyboard to smartphone
