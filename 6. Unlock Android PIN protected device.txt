@@ -1,0 +1,37 @@
+//Exploit
+//Trial%error
+!Brute force
+-Brute force - install
+#git clone https://github.com/urbanadventurer/Android-PIN-Bruteforce.git
+#chmod +x android-pin-bruteforce
+#./android-pin-bruteforce
+//ADB usb debugging
+!Requirements:
+-USB debugging enabled
+-Device authorized
+-PC or Termux
+{
+	How to use Android as Rubber Ducky with NetHunter - https://youtu.be/bYfict-752k​
+	How to setup Android as Rubber Ducky without NetHunter - https://youtu.be/Mek9DMGy8os
+	WBRUTER: https://github.com/wuseman/WBRUTER
+	Android PIN Bruteforce: https://github.com/urbanadventurer/An...  
+	Android 8.0 update + issue: https://www.xda-developers.com/androi...
+}
+//HID (Rubber ducky)
+!Requirement
+-Rooted android with enabled HID or rubber ducky USB
+-OTG cable
+-Termux
+	Android PIN Bruteforce: 
+https://github.com/urbanadventurer/Android-PIN-Bruteforce 
+->Timeout
+After 5 wrong PINs-30s
+after 1 wrong PINS-30s
+after 41 wrong PIN-60s
+//Time to brute force PIN
+4 digits-167 hours (7 days)
+5 digits-1666 hours (69days)
+6 digits-16666 hours (2 years)
+7 digits-166666 hours (19years)
+8 digits-1666666 hours (190 years)
+//Factory reset

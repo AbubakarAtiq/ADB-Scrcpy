@@ -1,0 +1,3 @@
+{
+}
+https://techwiser.com/list-adb-commands/#:~:text=Top%2021%20ADB%20Commands%20Every%20Android%20User%20Should,%26%20Recovery%20Commands.%20...%205%20Utility%20Commands.%20
