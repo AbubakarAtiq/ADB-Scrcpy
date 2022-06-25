@@ -1,0 +1,1 @@
+adb pull <source file path> <destination file path>

@@ -1,0 +1,9 @@
+adb shell screenrecord <path to save>
+In brief,
+adb shell screenrecord /sdcard/screen.mp4
+-to stop screen recording break using ctrl+C
+-now the captured video will be placed in internal sdcard. Copy the video to PC using the command, mentioned below:
+adb pull /sdcard/screen.mp4
+-Increase birate of the video using the command.
+adb shell screenrecord -bit-rate 12000000 /sdcard/screen.mp4
+

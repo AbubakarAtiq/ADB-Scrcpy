@@ -1,0 +1,1 @@
+adb push <source file path> <destination file path>

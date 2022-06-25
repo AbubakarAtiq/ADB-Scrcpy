@@ -1,0 +1,5 @@
+adb shell screencap <path to save>
+This is in brief.
+adb shell screencap -p /sdcard/name_of_the_picture.png
+after this, you can pull screenshot from your devices
+adb pull /sdcard/screencap.png
