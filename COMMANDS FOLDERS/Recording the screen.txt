@@ -6,4 +6,11 @@ adb shell screenrecord /sdcard/screen.mp4
 adb pull /sdcard/screen.mp4
 -Increase birate of the video using the command.
 adb shell screenrecord -bit-rate 12000000 /sdcard/screen.mp4
+https://developer.android.com/studio/command-line/adb
+-------------------------------------------------------------------------------------------------------
+To use screenrecord from the command line, type the following:
+adb shell screenrecord /sdcard/demo.mp4
+stop the screen recording by pressing control+C; otherwise, the recording stops automatically at three minutes or the time limit set by --time-limit.
+To begin recording your device screen, run the screenrecord command to record the video. Then, run the pull command to download the video from the device to the host computer. 
+Note, maximum limit is 3 min, but you can change it, by --time-limit "time"
 
